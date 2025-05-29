@@ -90,7 +90,7 @@ body {
 
 /* Playback control buttons styling */
 .control-btn {
-    background-image: linear-gradient(#0061ff, #60efff);
+    background-image: linear-gradient(90deg, #0061ff, #60efff);
     padding: 0.6rem 1rem;
     border-radius: 10px;
     border: none;
