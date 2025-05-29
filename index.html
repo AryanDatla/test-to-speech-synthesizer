@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Page title and metadata -->
+    <title>Text to Speech Converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!-- Main container to center the app -->
+    <div class="container">
+        <!-- Application wrapper -->
+        <div class="app">
+            <!-- Header section with app title -->
+            <header class="heading">
+                <h1>Text to Speech Synthesizer</h1>
+            </header>
+
+            <!-- Interaction section for user input and controls -->
+            <div class="interact">
+                <!-- Label for accessibility -->
+                <label for="input">Enter text below:</label>
+
+                <!-- Textarea for user to input text -->
+                <textarea id="input" placeholder="Enter text to convert into speech..." cols="35" rows="10" class="Text"></textarea>
+
+                <!-- Voice selection dropdown -->
+                <select id="voiceSelect" class="control">
+                    <option value="">Loading voices...</option>
+                </select>
+
+                <!-- Error message display -->
+                <p class="errors"></p>
+
+                <!-- Button to trigger speech synthesis -->
+                <button class="btn" id="convertBtn">Click me to generate speech!!!</button>
+
+                <!-- Playback control buttons -->
+                <div class="playback-controls">
+                    <button class="btn control-btn" id="pauseBtn">Pause</button>
+                    <button class="btn control-btn" id="resumeBtn">Resume</button>
+                    <button class="btn control-btn" id="stopBtn">Stop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
