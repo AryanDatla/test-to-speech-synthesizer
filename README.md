@@ -9,20 +9,14 @@ A lightweight and responsive web app that converts user-entered text into natura
 - 🎤 **Text-to-Speech Conversion**  
   Converts typed text into speech using the browser’s built-in Speech Synthesis API.
 
-- 🔊 **Voice Selection Dropdown**  
+- 🔊 **Voice Selection**  
   Choose from multiple available voices installed on the system/browser.
 
 - ⏯️ **Playback Controls**  
   - **Pause**: Temporarily pause the speech  
   - **Resume**: Continue from where you left off  
   - **Stop**: Cancel ongoing speech
-
-- ⚠️ **Input Validation**  
-  Displays a helpful error if no text is entered.
-
-- 🎨 **Responsive UI with Styled Buttons**  
-  Designed using Flexbox and gradients for modern, clean visuals.
-
+  - 
 ---
 
 ## 🖼️ Live Demo
