@@ -21,7 +21,7 @@ A lightweight and responsive web app that converts user-entered text into natura
 
 ## 🖼️ Live Demo
 
-👉 [Click here to try the app](https://aryandatla.github.io/test-to-speech-synthesizer/)  
+👉 [Click here to try the app](https://aryandatla.github.io/text-to-speech-synthesizer/)  
 
 ---
 
